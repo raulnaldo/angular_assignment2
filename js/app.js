@@ -37,7 +37,7 @@ function ShoppingListCheckOffService() {
   var service = this;
 
   // List of shopping items
-  var to_buy_items = [{name: "Milk",quantity: "2"},{name: "Donuts",quantity: "200"},{name: "Cookies",quantity: "300"},{name: "Chocolate",quantity: "5"}];  
+  var to_buy_items = [{name: "Beer",quantity: "15"},{name: "Gin",quantity: "1"},{name: "Bread",quantity: "3"},{name: "Milk",quantity: "2"},{name: "Donuts",quantity: "200"},{name: "Cookies",quantity: "300"},{name: "Chocolate",quantity: "5"}];  
   var bought_items = [];
 
   service.BuyItem = function (itemIndex) {    
